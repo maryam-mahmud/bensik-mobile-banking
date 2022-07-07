@@ -1,0 +1,17 @@
+.social{
+    position: relative;
+    background-color: rgba(82, 192, 255, 1);
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: 40rem;
+    svg{
+        position: absolute;
+        top: -3.5rem;
+        left: 45%;
+    }
+    &__text{
+        align-items: center;
+
+    }
+}

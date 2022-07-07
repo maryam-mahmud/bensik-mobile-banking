@@ -1,0 +1,26 @@
+.footer{
+    height: 20rem;
+
+    &__container{
+        justify-content: flex-end;
+        padding: 2rem 9rem;
+        height: 100%;
+        width: 100%;
+        gap: 5rem;
+
+
+
+
+    }
+
+    &__line{
+        width: 60%;
+        height: .1rem;
+        background: #000;
+
+    }
+
+    &__right{
+        flex-basis: 30%;
+    }
+}

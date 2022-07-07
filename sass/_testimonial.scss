@@ -1,0 +1,23 @@
+.testimonial{
+    height: 60rem;
+    align-items: center;
+
+    &__container{
+        height: 80%;
+        align-items: center;
+       
+    }
+
+    &__box{
+        height: 15rem;
+        & > div {
+            height: 100%;
+            border: 1px solid rgba(0,0,0,0.3);
+            flex-basis: 25%;
+            
+        }
+        p{letter-spacing: 3px; font-family: 'Inter', sans-serif;}
+       
+    }
+   
+}

@@ -1,0 +1,57 @@
+.newsletter{
+    height: 60rem;
+
+    &__container{
+        background: rgba(65, 179, 244, 1);
+        height: 100%;
+        width: 100%;
+    }
+    &__content{
+        padding-left: 6rem;
+        align-self: center;
+        flex-basis: 70%;
+        gap: 4rem;
+        height: 60%;
+
+    }
+
+    figure{
+        position: relative;
+        height: 100%;
+        flex-basis: 30%;
+        img{
+            position: absolute;
+            top: -15rem;
+            right: -4rem;
+            object-fit: contain;
+        }
+    }
+
+    &__rect{
+        margin-top: -10rem;
+        width: 1rem;
+        height: 15rem;
+        background: rgba(113, 129, 118, 1);
+
+    }
+
+    &__text{
+        width: 25rem;
+        gap: 4rem;
+        & > :first-child span{display: block;}
+        h3{font-family: 'Bai Jamjuree', sans-serif; font-weight: 600;}
+    }
+
+    &__text-round{
+        display: block;
+        height: 10rem;
+        width:10rem;
+    }
+  
+    &__btn{
+        width: 16rem;
+        height: 5.8rem;
+        background: rgba(225, 92, 25, 1);
+
+    }
+}
